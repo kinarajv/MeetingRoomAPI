@@ -50,4 +50,22 @@ public class RoomController : Controller
 		await _roomRepository.AddRoomAsync(newRoom);
 		return Ok(newRoom);
 	}
+
+	[HttpPut]
+	public async Task<ActionResult> UpdateRoom(int id, [FromBody] RoomDTO register) 
+	{
+		var room = await _roomRepository.GetRoomByIdAsync(id);
+		room.Description = register.Description;
+		room.Capacity = register.Capacity;
+		await _roomRepository.UpdateRoomAsync(room);
+		return Ok(room);
+	}
+
+	[HttpDelete]
+	public async Task<ActionResult> DeleteRoom(int id) 
+	{
+		var room = await _roomRepository.GetRoomByIdAsync(id);
+		await _roomRepository.DeleteRoomAsync(id);
+		return Ok(room);
+	}
 }
