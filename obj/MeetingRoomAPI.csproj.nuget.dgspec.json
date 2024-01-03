@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\Train\\Events\\MeetingRoomAPI\\MeetingRoomAPI.csproj": {}
+    "d:\\Practices\\CSharp\\MeetingRoomAPI\\MeetingRoomAPI.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\Train\\Events\\MeetingRoomAPI\\MeetingRoomAPI.csproj": {
+    "d:\\Practices\\CSharp\\MeetingRoomAPI\\MeetingRoomAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\Train\\Events\\MeetingRoomAPI\\MeetingRoomAPI.csproj",
+        "projectUniqueName": "d:\\Practices\\CSharp\\MeetingRoomAPI\\MeetingRoomAPI.csproj",
         "projectName": "MeetingRoomAPI",
-        "projectPath": "C:\\CSharp\\Train\\Events\\MeetingRoomAPI\\MeetingRoomAPI.csproj",
-        "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\Train\\Events\\MeetingRoomAPI\\obj\\",
+        "projectPath": "d:\\Practices\\CSharp\\MeetingRoomAPI\\MeetingRoomAPI.csproj",
+        "packagesPath": "C:\\Users\\alisy\\.nuget\\packages\\",
+        "outputPath": "d:\\Practices\\CSharp\\MeetingRoomAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alisy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
